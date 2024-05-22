@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SignSwift"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".WordsMcq5"
+            android:exported="false" />
+        <activity
+            android:name=".WordsMcq4"
+            android:exported="false" />
+        <activity
+            android:name=".WordsMcq3"
+            android:exported="false" />
+        <activity
+            android:name=".WordsMcq2"
+            android:exported="false" />
+        <activity
+            android:name=".WordsMcq1"
+            android:exported="false" />
+        <activity
+            android:name=".words_set6"
+            android:exported="false" />
+        <activity
+            android:name=".words_set5"
+            android:exported="false" />
+        <activity
+            android:name=".words_set4"
+            android:exported="false" />
+        <activity
+            android:name=".words_set3"
+            android:exported="false" />
+        <activity
+            android:name=".words_set2"
+            android:exported="false" />
+        <activity
+            android:name=".words_set1"
+            android:exported="false" />
+        <activity
+            android:name=".NumMcq6"
+            android:exported="false" />
+        <activity
+            android:name=".NumMcq5"
+            android:exported="false" />
+        <activity
+            android:name=".NumMcq4"
+            android:exported="false" />
+        <activity
+            android:name=".NumMcq3"
+            android:exported="false" />
+        <activity
+            android:name=".NumMcq2"
+            android:exported="false" />
+        <activity
+            android:name=".NumMcq1"
+            android:exported="false" />
+        <activity
+            android:name=".num_set6"
+            android:exported="false" />
+        <activity
+            android:name=".num_set5"
+            android:exported="false" />
+        <activity
+            android:name=".num_set4"
+            android:exported="false" />
+        <activity
+            android:name=".num_set3"
+            android:exported="false" />
+        <activity
+            android:name=".num_set2"
+            android:exported="false" />
+        <activity
+            android:name=".num_set1"
+            android:exported="false" />
+        <activity
+            android:name=".AlphaMcq6"
+            android:exported="false" />
+        <activity
+            android:name=".AlphaMcq5"
+            android:exported="false" />
+        <activity
+            android:name=".AlphaMcq4"
+            android:exported="false" />
+        <activity
+            android:name=".AlphaMcq3"
+            android:exported="false" />
+        <activity
+            android:name=".AlphaMcq2"
+            android:exported="false" />
+        <activity
+            android:name=".alpha_set6"
+            android:exported="false" />
+        <activity
+            android:name=".alpha_set5"
+            android:exported="false" />
+        <activity
+            android:name=".alpha_set4"
+            android:exported="false" />
+        <activity
+            android:name=".alpha_set3"
+            android:exported="false" />
+        <activity
+            android:name=".alpha_set2"
+            android:exported="false" />
+        <activity
+            android:name=".AlphaMcq1"
+            android:exported="false" />
+        <activity
+            android:name=".alpha_set1"
+            android:exported="false" />
+        <activity
+            android:name=".Words"
+            android:exported="false" />
+        <activity
+            android:name=".Numbers"
+            android:exported="false" />
+        <activity
+            android:name=".Alphabets"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Practice"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
